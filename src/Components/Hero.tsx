@@ -1,3 +1,5 @@
+import React from 'react'
+
 export default function Hero() {
   return (
     <div className="relative overflow-hidden bg-white w-full h-screen">
