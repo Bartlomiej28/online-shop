@@ -1,11 +1,12 @@
 import Hero from "@/Components/Hero";
 import Categories from "@/Components/Categories";
 import Products from "@/Components/Products";
-import {prisma} from '@/lib/db/prisma'
+import { PrismaClient } from '@prisma/client'
 import { Suspense } from "react";
 import Loading from "./loading";
 
 export default async function Home() {
+  const prisma = new PrismaClient()
   const products = await prisma.product.findMany();
   return (
     <main className="h-auto">

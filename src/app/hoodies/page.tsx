@@ -1,8 +1,9 @@
 import React from 'react'
-import {prisma} from '@/lib/db/prisma'
+import { PrismaClient } from '@prisma/client'
 import Products from '@/Components/Products'
 
 async function page() {
+    const prisma = new PrismaClient()
     const tshirts = await prisma.product.findMany({
         where:{
             category: "Hoodie"

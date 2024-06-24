@@ -2,7 +2,7 @@ import React, { Suspense } from 'react'
 import ProductPanel from '@/Components/ProductPanel'
 import MoreInfoAboutProduct from '@/Components/MoreInfoAboutProduct'
 import RecommendedProducts from '@/Components/RecommendedProducts'
-import { prisma } from '@/lib/db/prisma'
+import { PrismaClient } from '@prisma/client'
 import { notFound } from 'next/navigation'
 import Loading from './loading'
 
@@ -24,6 +24,7 @@ type Size = {
 }
 
 const page = async({ params: { id }} : ProductPageProps) => {
+  const prisma = new PrismaClient();
   const product = await prisma.product.findUnique({
     where:{
       id
