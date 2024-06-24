@@ -4,8 +4,6 @@ import React, { Suspense } from 'react'
 import useShoppingCartStore from '@/Store/store'
 import Loading from './loading'
 import { useRouter } from 'next/navigation'
-import { Metadata } from 'next'
-
 
 
 function Page() {

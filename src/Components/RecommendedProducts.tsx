@@ -4,28 +4,35 @@ function RecommendedProducts() {
     const products = [
         {
           id: 1,
-          name: 'Basic Tee',
-          href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-          imageAlt: "Front of men's Basic Tee in black.",
-          price: '$35',
-          color: 'Black',
+          name: 'T-shirt z nadrukiem',
+          href: '/product/66755a663d1f73d534f21927',
+          imageSrc: 'https://image.hm.com/assets/hm/60/d2/60d2f9f8de27bb0be42730acf4dc781bb8851315.jpg?imwidth=564',
+          imageAlt: "T-shirt z nadrukiem",
+          price: '149.99',
         },
         {
             id: 2,
-            name: 'Nomad Tumbler',
-            href: '#',
-            price: '$35',
-            imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
-            imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+            name: 'Top polo z lekkiego bawełnianego dżerseju',
+            href: '/product/667562e53d1f73d534f2192c',
+            price: '149.99',
+            imageSrc: 'https://image.hm.com/assets/hm/83/51/8351cfe46af23b39c58a552c84cdea49f6583e22.jpg?imwidth=564',
+            imageAlt: 'Top polo z lekkiego bawełnianego dżerseju',
           },
           {
             id: 3,
-            name: 'Focus Paper Refill',
-            href: '#',
-            price: '$89',
-            imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
-            imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
+            name: 'Koszula z przewiewnego lnu',
+            href: '/product/667567e73d1f73d534f21931',
+            price: '149.99',
+            imageSrc: 'https://image.hm.com/assets/hm/74/1f/741f6f3f0c79317b08b4c6bed65bb528065806ca.jpg?imwidth=564',
+            imageAlt: 'Koszula z przewiewnego lnu',
+          },
+          {
+            id: 4,
+            name: 'Bluza',
+            href: '/product/66756c713d1f73d534f21938',
+            price: '149.99',
+            imageSrc: 'https://image.hm.com/assets/hm/7b/aa/7baa82d6118ac5a6a642e2bcfb8604bdcb971b9c.jpg?imwidth=564',
+            imageAlt: 'Bluza',
           },
       ]
   return (
@@ -51,7 +58,6 @@ function RecommendedProducts() {
                       {product.name}
                     </a>
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">{product.color}</p>
                 </div>
                 <p className="text-sm font-medium text-gray-900">{product.price} zł</p>
               </div>

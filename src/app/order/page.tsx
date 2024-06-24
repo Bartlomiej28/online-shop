@@ -4,7 +4,6 @@ import Confetti from 'react-confetti';
 import useShoppingCartStore from '@/Store/store';
 import useDeviceSize from '@/Hooks/useDeviceSize';
 import Loading from './loading';
-import Link from 'next/link';
 
 function Page() {
     const [width, height] = useDeviceSize();
@@ -52,14 +51,13 @@ function Page() {
                         </Suspense>
                     </div>
                     <div className="flex flex-col gap-2">
-                        <h2 className="mb-1 text-xl font-semibold">Numer zamówienia:</h2>
                         <p className="text-sm dark:text-gray-600">
                             Zamówienie dotrze do Ciebie w przeciągu 3-4 dni.
                         </p>
                         <p className="text-sm dark:text-gray-600">
                             <b>Stan:</b> Zamówione
                         </p>
-                        <Link href={'/'}><button className="mt-4 mb-8 w-full rounded-md bg-gray-900 px-6 py-3 font-medium text-white">Kontynuuj Zakupy</button></Link>
+                        <a href={'/'}><button className="mt-4 mb-8 w-full rounded-md bg-gray-900 px-6 py-3 font-medium text-white">Kontynuuj Zakupy</button></a>
                     </div>
                 </div>
             </div>
