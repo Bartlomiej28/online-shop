@@ -1,0 +1,29 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "./generated/client"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = "mongodb+srv://bartlomiejb:t4EpQWl44Xp7jH0O@cluster0.d5fk5ps.mongodb.net/ecommerce?retryWrites=true&w=majority&appName=Cluster0"
+}
+
+model Product {
+  id                String   @id @default(auto()) @map("_id") @db.ObjectId
+  name              String
+  price             String
+  imageSrc          String
+  imageAlt          String
+  productDesc       String
+  colors            Json
+  sizes             Json
+  additionalImages  String[]
+  material          String
+  origin            String
+  otherInformations String
+  category          String
+  rating            Int
+  reviewCount       Int
+
+  @@map("products")
+}
