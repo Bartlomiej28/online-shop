@@ -4,7 +4,8 @@ generator client {
 
 datasource db {
   provider = "mongodb"
-  url      = "mongodb+srv://bartlomiejb:t4EpQWl44Xp7jH0O@cluster0.d5fk5ps.mongodb.net/ecommerce?retryWrites=true&w=majority&appName=Cluster0"
+  url      = "mongodb+srv://bartlomiejb:t4EpQWl44Xp7jH0O@cluster0.d5fk5ps.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+             
 }
 
 model Product {
