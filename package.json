@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && next build",
+    "build": "prisma generate && next build && npx tailwindcss -o build.css --minify",
     "postinstall": "prisma generate",
     "start": "next start",
     "lint": "next lint"

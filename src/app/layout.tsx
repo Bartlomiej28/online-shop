@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 import ShoppingCart from "@/Components/ShoppingCart";
-
+import '../../build.css'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
