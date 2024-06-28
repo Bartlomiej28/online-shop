@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 function RecommendedProducts() {
     const products = [
         {
@@ -53,10 +53,10 @@ function RecommendedProducts() {
               <div className="mt-4 flex justify-between">
                 <div>
                   <h3 className="text-sm text-gray-700">
-                    <a href={product.href}>
+                    <Link href={product.href}>
                       <span aria-hidden="true" className="absolute inset-0" />
                       {product.name}
-                    </a>
+                    </Link>
                   </h3>
                 </div>
                 <p className="text-sm font-medium text-gray-900">{product.price} zł</p>
