@@ -352,7 +352,7 @@ function Page() {
               <div className="mt-6 border-t border-b py-2">
                 <div className="flex items-center justify-between">
                   <p className="text-sm font-medium text-gray-900">Cena</p>
-                  <p className="font-semibold text-gray-900">{totalPrice} zł</p>
+                  <p className="font-semibold text-gray-900">{isNaN(totalPrice) ? 0: totalPrice} zł</p>
                 </div>
                 <div className="flex items-center justify-between">
                   <p className="text-sm font-medium text-gray-900">Dostawa</p>
