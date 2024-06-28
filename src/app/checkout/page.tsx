@@ -97,7 +97,8 @@ function Page() {
           <div className="mt-8 space-y-3 rounded-lg border bg-white px-2 py-4 sm:px-6">
             <div className="flow-root">
                 <ul role="list" className="-my-6 divide-y divide-gray-200">
-                  {totalPrice === 0 ? <p className='p-4 w-full text-center'>Twój koszyk jest pusty</p> : false}
+                  {itemsList.length === 0 ? <p className='p-4 w-full text-center'>Twój koszyk jest pusty</p> :
+                  <>
                   <Suspense fallback={<Loading/>}>
                     {itemsList.map((product: any) => (
                         <li key={product.id} className="flex py-6">
@@ -136,6 +137,8 @@ function Page() {
                         </li>
                     ))}
                     </Suspense>
+                    </>
+                    }
                 </ul>
             </div>
             
@@ -364,7 +367,7 @@ function Page() {
             <button
               type="submit"
               className="mt-4 mb-8 w-full rounded-md bg-gray-900 px-6 py-3 font-medium text-white"
-              disabled={totalPrice === 0 ? true : false}
+              disabled={itemsList.length === 0 ? true : false}
             >
               Zapłać i Zamów
             </button>
