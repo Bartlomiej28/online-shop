@@ -10,11 +10,11 @@ function Page() {
     const itemsList = useShoppingCartStore((state) => state.itemsList);
 
     return (
-        <div className="w-full h-screen relative">
-            <div className="w-full h-screen absolute z-10">
+        <div className="w-full min-h-screen h-auto relative pt-16">
+            <div className="w-full min-h-screen h-auto absolute z-10">
                 <Confetti width={width - 20} height={height} numberOfPieces={500} recycle={false} />
             </div>
-            <div className="w-full h-screen absolute z-20 flex justify-center items-center p-4">
+            <div className="w-full min-h-screen h-auto absolute z-20 flex justify-center items-center p-4">
                 <div className="flex flex-col w-full md:w-2/3 lg:w-1/3 gap-6 p-6 space-y-6 overflow-hidden rounded-lg shadow-md dark:bg-gray-50 dark:text-gray-800">
                     <div className="flex space-x-4 justify-center items-center">
                         <p className="text-2xl md:text-3xl font-medium text-center">Dziękujemy za wspólne zakupy!</p>
