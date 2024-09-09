@@ -15,7 +15,7 @@ function Page() {
                 <Confetti width={width - 20} height={height} numberOfPieces={500} recycle={false} />
             </div>
             <div className="w-full min-h-screen h-auto absolute z-20 flex justify-center items-center p-4">
-                <div className="flex flex-col w-full md:w-2/3 lg:w-1/3 gap-6 p-6 space-y-6 overflow-hidden rounded-lg shadow-md dark:bg-gray-50 dark:text-gray-800">
+                <div className="flex flex-col w-full md:w-2/3 lg:w-1/3 gap-6 p-6 space-y-6 overflow-hidden rounded-lg shadow-md">
                     <div className="flex space-x-4 justify-center items-center">
                         <p className="text-2xl md:text-3xl font-medium text-center">Dziękujemy za wspólne zakupy!</p>
                     </div>
@@ -51,10 +51,10 @@ function Page() {
                         </Suspense>
                     </div>
                     <div className="flex flex-col gap-2">
-                        <p className="text-sm dark:text-gray-600">
+                        <p className="text-sm">
                             Zamówienie dotrze do Ciebie w przeciągu 3-4 dni.
                         </p>
-                        <p className="text-sm dark:text-gray-600">
+                        <p className="text-sm">
                             <b>Stan:</b> Zamówione
                         </p>
                         <a href={'/'}><button className="mt-4 mb-8 w-full rounded-md bg-gray-900 px-6 py-3 font-medium text-white">Kontynuuj Zakupy</button></a>
