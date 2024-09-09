@@ -7,7 +7,7 @@ function Navbar() {
     const setShowShoppingCart = useShoppingCartStore((state)=> state.setShowShoppingCart)
     const totalQuantity = useShoppingCartStore((state)=> state.totalQuantity)
   return (
-    <div className="navbar bg-base-100 fixed z-50">
+    <div className="navbar bg-base-100 fixed z-50 bg-white">
         <div className="flex-1">
             <Link href={'/'} className="btn btn-ghost text-xl">BBShop</Link>
         </div>
