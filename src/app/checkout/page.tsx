@@ -145,7 +145,7 @@ function Page() {
           </div>
 
           <p className="mt-8 text-lg font-medium">Metody Dostawy</p>
-          <form className="mt-5 grid gap-6">
+          <form className="mt-5 grid gap-6 bg-white">
             <div className="relative">
               <input
                 className="peer hidden"
