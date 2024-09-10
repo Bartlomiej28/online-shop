@@ -216,7 +216,7 @@ function Page() {
                   type="email"
                   id="email"
                   name="email"
-                  className="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm shadow-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500"
+                  className="w-full bg-white rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm shadow-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500"
                   placeholder="your.email@gmail.com"
                   required
                 />
@@ -245,7 +245,7 @@ function Page() {
                   type="text"
                   id="card-holder"
                   name="card-holder"
-                  className="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm shadow-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500"
+                  className="w-full bg-white rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm shadow-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500"
                   placeholder="Your full name here"
                   required
                 />
@@ -275,7 +275,7 @@ function Page() {
                     type="text"
                     id="card-no"
                     name="card-no"
-                    className="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm shadow-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500"
+                    className="w-full bg-white rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm shadow-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500"
                     placeholder="xxxx-xxxx-xxxx-xxxx"
                     required
                   />
@@ -299,14 +299,14 @@ function Page() {
                 <input
                   type="text"
                   name="credit-expiry"
-                  className="w-1/6 rounded-md border border-gray-200 px-4 py-3 text-sm shadow-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500"
+                  className="w-1/6  bg-white rounded-md border border-gray-200 px-4 py-3 text-sm shadow-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500"
                   placeholder="MM/YY"
                   required
                 />
                 <input
                   type="text"
                   name="credit-cvc"
-                  className="w-1/6 flex-shrink-0 rounded-md border border-gray-200 px-4 py-3 text-sm shadow-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500"
+                  className="w-1/6 bg-white flex-shrink-0 rounded-md border border-gray-200 px-4 py-3 text-sm shadow-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500"
                   placeholder="CVC"
                   required
                 />
@@ -320,7 +320,7 @@ function Page() {
                     type="text"
                     id="billing-address"
                     name="billing-address"
-                    className="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm shadow-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500"
+                    className="w-full bg-white rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm shadow-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500"
                     placeholder="Street Address"
                     required
                   />
@@ -344,7 +344,7 @@ function Page() {
                 <input
                   type="text"
                   name="billing-zip"
-                  className="flex-shrink-0 rounded-md border border-gray-200 px-4 py-3 text-sm shadow-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500"
+                  className="flex-shrink-0 bg-white rounded-md border border-gray-200 px-4 py-3 text-sm shadow-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500"
                   placeholder="ZIP"
                   required
                 />
