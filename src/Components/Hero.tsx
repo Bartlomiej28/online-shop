@@ -21,37 +21,14 @@ export default function Hero() {
               <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                 <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
                   <img
-                    src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
+                    src="https://image.hm.com/assets/hm/a9/40/a940cda22f0a40ca603a62935c58110212115447.jpg?imwidth=564"
                     alt=""
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
                 <div className="h-64 w-44 overflow-hidden rounded-lg">
                   <img
-                    src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
-                    alt=""
-                    className="h-full w-full object-cover object-center"
-                  />
-                </div>
-              </div>
-              <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                <div className="h-64 w-44 overflow-hidden rounded-lg">
-                  <img
-                    src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
-                    alt=""
-                    className="h-full w-full object-cover object-center"
-                  />
-                </div>
-                <div className="h-64 w-44 overflow-hidden rounded-lg">
-                  <img
-                    src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
-                    alt=""
-                    className="h-full w-full object-cover object-center"
-                  />
-                </div>
-                <div className="h-64 w-44 overflow-hidden rounded-lg">
-                  <img
-                    src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg"
+                    src="https://image.hm.com/assets/hm/40/10/40104f9e8c63dbebb8d1168cd7baf5c0060c48ac.jpg?imwidth=564"
                     alt=""
                     className="h-full w-full object-cover object-center"
                   />
@@ -60,14 +37,37 @@ export default function Hero() {
               <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                 <div className="h-64 w-44 overflow-hidden rounded-lg">
                   <img
-                    src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
+                    src="https://image.hm.com/assets/hm/c7/21/c7215fdc57bbf80cb0069a4b9b3ebf61af4e7002.jpg?imwidth=564"
                     alt=""
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
                 <div className="h-64 w-44 overflow-hidden rounded-lg">
                   <img
-                    src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg"
+                    src="https://image.hm.com/assets/hm/de/39/de396662d27b505b721039ce0ee0dace91f45fab.jpg?imwidth=564"
+                    alt=""
+                    className="h-full w-full object-cover object-center"
+                  />
+                </div>
+                <div className="h-64 w-44 overflow-hidden rounded-lg">
+                  <img
+                    src="https://image.hm.com/assets/hm/69/38/6938163d65448b0289c8129e4a1c04da50a78ea7.jpg?imwidth=564"
+                    alt=""
+                    className="h-full w-full object-cover object-center"
+                  />
+                </div>
+              </div>
+              <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                <div className="h-64 w-44 overflow-hidden rounded-lg">
+                  <img
+                    src="https://image.hm.com/assets/hm/7d/1f/7d1f8880039f55597f2bec3733855b7f374faf57.jpg?imwidth=564"
+                    alt=""
+                    className="h-full w-full object-cover object-center"
+                  />
+                </div>
+                <div className="h-64 w-44 overflow-hidden rounded-lg">
+                  <img
+                    src="https://image.hm.com/assets/hm/d1/01/d101a606eb2f05cf3be6f2b030dc76ec26832c48.jpg?imwidth=564"
                     alt=""
                     className="h-full w-full object-cover object-center"
                   />
