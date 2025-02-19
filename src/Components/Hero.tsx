@@ -28,7 +28,7 @@ export default function Hero() {
                 </div>
                 <div className="h-64 w-44 overflow-hidden rounded-lg">
                   <img
-                    src="https://image.hm.com/assets/hm/40/10/40104f9e8c63dbebb8d1168cd7baf5c0060c48ac.jpg?imwidth=564"
+                    src="https://image.hm.com/assets/hm/5c/8c/5c8c2678da760d6ac7f3748848aaefe579f78a47.jpg?imwidth=1260"
                     alt=""
                     className="h-full w-full object-cover object-center"
                   />
