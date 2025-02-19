@@ -7,7 +7,7 @@ function Categories() {
         {
           name: 'Bluzy i bluzy z kapturem',
           description: 'Wygodne bluzy i bluzy z kapturem',
-          imageSrc: 'https://image.hm.com/assets/hm/ba/a4/baa477ba82b4b52cd03612b5e66aa3316f43a2f3.jpg?imwidth=564',
+          imageSrc: 'https://image.hm.com/assets/hm/c0/37/c037db1a0ff5581daf736681791dddbaabd99ce7.jpg?imwidth=564',
           imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
           href: '/hoodies',
         },
@@ -21,7 +21,7 @@ function Categories() {
         {
           name: 'Koszule',
           description: 'Wygodne i eleganckie koszule',
-          imageSrc: 'https://image.hm.com/assets/hm/e5/b4/e5b4aaea17cc747d2dcea5c50a2fa33e69d0982a.jpg?imwidth=564',
+          imageSrc: 'https://image.hm.com/assets/hm/52/10/52105f881ef33f3d7169d696549f9804235b27d2.jpg?imwidth=564',
           imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
           href: '/shirts',
         },
