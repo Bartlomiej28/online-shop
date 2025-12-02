@@ -6,7 +6,7 @@ function RecommendedProducts() {
           id: 1,
           name: 'T-shirt z nadrukiem',
           href: '/product/66755a663d1f73d534f21927',
-          imageSrc: 'https://image.hm.com/assets/hm/60/d2/60d2f9f8de27bb0be42730acf4dc781bb8851315.jpg?imwidth=564',
+          imageSrc: 'https://image.hm.com/assets/hm/a9/b9/a9b92f09c41ba6930f27c5f18a9ea3b015ac65de.jpg?imwidth=2160',
           imageAlt: "T-shirt z nadrukiem",
           price: '149.99',
         },
@@ -15,7 +15,7 @@ function RecommendedProducts() {
             name: 'Top polo z lekkiego bawełnianego dżerseju',
             href: '/product/667562e53d1f73d534f2192c',
             price: '149.99',
-            imageSrc: 'https://image.hm.com/assets/hm/83/51/8351cfe46af23b39c58a552c84cdea49f6583e22.jpg?imwidth=564',
+            imageSrc: 'https://image.hm.com/assets/hm/95/33/95336f60cf9a0bef59c567882f79bd6c626a404f.jpg?imwidth=2160',
             imageAlt: 'Top polo z lekkiego bawełnianego dżerseju',
           },
           {
@@ -23,7 +23,7 @@ function RecommendedProducts() {
             name: 'Koszula z przewiewnego lnu',
             href: '/product/667567e73d1f73d534f21931',
             price: '149.99',
-            imageSrc: 'https://image.hm.com/assets/hm/74/1f/741f6f3f0c79317b08b4c6bed65bb528065806ca.jpg?imwidth=564',
+            imageSrc: 'https://media.cos.com/assets/001/9f/75/9f7533e3af12b440948aece22b3d0b847a3cbd84.jpg?imwidth=2160&aspectRatio=2,3',
             imageAlt: 'Koszula z przewiewnego lnu',
           },
           {
@@ -31,7 +31,7 @@ function RecommendedProducts() {
             name: 'Bluza',
             href: '/product/66756c713d1f73d534f21938',
             price: '149.99',
-            imageSrc: 'https://image.hm.com/assets/hm/7b/aa/7baa82d6118ac5a6a642e2bcfb8604bdcb971b9c.jpg?imwidth=564',
+            imageSrc: 'https://image.hm.com/assets/hm/8c/90/8c902c018e634ed6d1acbdb69135df3633d12c3e.jpg?imwidth=2160',
             imageAlt: 'Bluza',
           },
       ]
