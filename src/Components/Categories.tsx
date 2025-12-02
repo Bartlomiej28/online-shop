@@ -14,14 +14,14 @@ function Categories() {
         {
           name: 'T-shirty',
           description: 'Jednolite T-shirty i T-shirty z nadrukiem ',
-          imageSrc: 'https://image.hm.com/assets/hm/fe/98/fe983c9a3374686f2cd2c0fdc96036a530917bbc.jpg?imwidth=564',
+          imageSrc: 'https://image.hm.com/assets/hm/6f/15/6f156a9bdcd72598b4e470dd68a8e154b1844b50.jpg?imwidth=2160',
           imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
           href: '/t-shirts',
         },
         {
           name: 'Koszule',
           description: 'Wygodne i eleganckie koszule',
-          imageSrc: 'https://image.hm.com/assets/hm/52/10/52105f881ef33f3d7169d696549f9804235b27d2.jpg?imwidth=564',
+          imageSrc: 'https://image.hm.com/assets/hm/b5/a7/b5a7cf2662fe906edf15c674a4e74038f6ee290d.jpg?imwidth=2160',
           imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
           href: '/shirts',
         },
